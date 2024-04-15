@@ -16,7 +16,10 @@ const useFetch = () => {
                 console.log(err);
             })
             .finally(()=>{
-                setIsLoading(false);
+                setTimeout(()=>{
+                    setIsLoading(false);
+
+                },500 );
             });
     }
     return [apiData, getApi, isLoading, hasError];

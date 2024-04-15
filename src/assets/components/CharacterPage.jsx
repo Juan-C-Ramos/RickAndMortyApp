@@ -39,7 +39,7 @@ const CharacterPage = () => {
 
         <div className='busqueda'>
             <form action="" method="get">
-                <input type="search" name="" id="busqueda__input" list='opciones' placeholder='Who want to search?'/>
+                <input type="search" name="" id="busqueda__input" list='opciones' placeholder='Search here'/>
                 <button onClick={handleSubmit} type="submit">Search</button>
                 <datalist id='opciones'> 
                     {
