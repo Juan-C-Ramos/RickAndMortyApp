@@ -1,0 +1,67 @@
+.population_card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 80vw;
+    height: 80vh;
+    overflow-y: scroll;
+}
+@media (max-width: 550px) {
+ .population_card {
+  top:15%;
+  left: 3%;
+   width: 100vw;
+   }
+}
+.resultados Card{
+    border: 2px solid red;
+    border-radius:10px;
+    height:500px;
+    width:300px;
+    overflow: hidden;
+}
+.backButtonPopulation{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: black;
+    z-index: 1;
+
+
+}
+.difuminado{
+    filter: drop-shadow(0 0 5em #000000);
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+.residents__Result{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgb(33, 33, 33);        /* color of the tracking area */
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(11, 106, 6);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(28, 28, 28);  /* creates padding around scroll thumb */
+  }
