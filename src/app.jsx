@@ -37,7 +37,11 @@ export function App() {
           
           //Pantalla de resultados
           :
-          <SelectionPage></SelectionPage>
+          <div>
+            <SelectionPage></SelectionPage>
+            <div className='IconoIo'></div>
+
+          </div>
                   
         }
       </div>
